@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>3D Avatar Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "https://unpkg.com/three@v0.158.0/build/three.module.js",
+				"three/addons/": "https://unpkg.com/three@v0.158.0/examples/jsm/"
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#home">About Me</a></li>
+				<li><a href="#home">Projects</a></li>
+				<li><a href="#home">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<section id="home">
+			<div id="avatar-container">
+				<div id="avatar-loading"></div>
+			</div>
+			<h1 class="hero-title">Hi there 👋</h1>
+			<h1>I'm <span class="gradient-text">Nicogs</span></h1>
+			<p>A tech enthusiast standing at the crossroads of art & technology</p>
+		</section>
+	</div>
+	<script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
